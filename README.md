@@ -1,14 +1,13 @@
+<<<<<<< add-badges-to-readme
+![Auto Assign](https://github.com/ChairForce-1-0/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+
+![Proof HTML](https://github.com/ChairForce-1-0/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+
+# Welcome to your organization's demo respository
+This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+=======
 # Welcome to Our GitHub Organization!
-
-This README is designed to help you get acquainted with the basics of using our GitHub Organization for effective collaboration and project management. Whether you're contributing code, managing projects, or reviewing pull requests, this guide will provide you with the necessary information to get started.
-
-## Getting Started with GitHub
-
-Before diving into the specifics of our organization's workflow, make sure you're familiar with GitHub fundamentals. If you're new to GitHub, consider exploring the [GitHub Learning Lab](https://lab.github.com/) where you can find introductory courses.
-
-## Our GitHub Organization
-
-An organization on GitHub is a great way to collaborate on projects with multiple people. It allows us to work together more efficiently, manage access to our repositories, and share responsibilities.
+>>>>>>> main
 
 ### 1. Joining the Organization
 
