@@ -52,8 +52,8 @@ Our organization uses the following GitHub flow for managing changes:
 
 ### 7. Resources
 
-- [GitHub Help](https://help.github.com/)
-- [GitHub Flow Guide](https://guides.github.com/introduction/flow/)
+<[GitHub Help](https://help.github.com/)>
+<[GitHub Flow Guide](https://guides.github.com/introduction/flow/)>
 
 ## Conclusion
 
