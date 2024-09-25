@@ -1,10 +1,8 @@
-<<<<<<< add-badges-to-readme
 ![Auto Assign](https://github.com/ChairForce-1-0/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
 
 ![Proof HTML](https://github.com/ChairForce-1-0/demo-repository/actions/workflows/proof-html.yml/badge.svg)
 
 # Welcome to Our GitHub Organization!
->>>>>>> main
 
 ### 1. Joining the Organization
 
