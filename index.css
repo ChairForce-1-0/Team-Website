@@ -1,0 +1,181 @@
+/* This edits the elements within the webpage */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 10px;  /* Adds space at the top of the page */
+    line-height: 1.0;
+    background-image: url('Backgrounds/Website-Background-13.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 5%;
+  }
+
+/*For screens larger than 600px */
+@media (min-width: 600px) {
+  .sections-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+}
+
+/*For screens smaller than 600px */
+@media (max-width: 599px) {
+  h1, h2 {
+    font-size: 90%;
+  }
+  .sections-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+.profile-picture { /* edits the size of the photo */
+  width: 14vw;
+  max-width: 250px;
+  min-width: 200px;
+  height: auto;
+  border: 5px solid rgba(44, 44, 44, 0);
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header h1 { /* edits size of Irving Sanchez */
+  font-size: 36px;
+  margin: 0;
+}
+
+.header h2 { /* edits the size of Major */
+  font-size: 22px;
+  margin: 0;
+}
+
+.header h2.minor {
+  font-size: 19px; /* Smaller font size for 'Minor in Mathematics' */
+}
+
+ul {
+  list-style-type: square; /* This changes bullet points to squares instead of round circles */
+}
+
+p {
+  text-align: center;
+}
+
+.section {
+  background-color: rgba(0, 0, 0, 0.5); ;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 20px;
+  display: flex; /* Allows multiple sections to sit in line */
+  flex-direction: column; /* Ensures the content is stacked vertically */
+  align-items: center; /* Centers the content horizontally */
+  justify-content: center; /* Centers the content vertically */
+  width: 100%; /* Fixed width or flex-basis can be used for uniformity */
+  max-width: 300px; /* Maximum width of the section */
+  flex: 0 0 auto; /* Prevents the box from growing or shrinking */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.671); /* Optional: Adds shadow for better visibility */
+}
+
+.section h2 { /* edits the font for the header of each box */
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px; /* Adds spacing between profile header and sections */
+  padding-top: 10x; /* Adds spacing between profile header and top of the page */
+}
+
+.section h2 + p a {
+  color: #b5f4f8 !important;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-link { /* color of contact link information */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.separator { /* the little line between discord and email */
+  color: #ffffff;
+  margin: 05px;
+}
+
+.hover-link { /* color of resume link */
+  color: #00d9e9;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner-text {
+  width: 100%; /* Full width of the viewport */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  padding: 10px 0; /* Add padding for some space around the text */
+  text-align: center; /* Center align the text */
+  position: absolute; /* Position it absolutely within its relative parent */
+  top: 80%; /* Position it in the middle of the parent container */
+  left: 0;
+  transform: translateY(-50%); /* Adjust vertically to center */
+  color: white; /* Just in case you need to change the text color to white */
+}
+
+.profile-header {
+  position: relative; /* Ensures that position: absolute in banner-text refers to this container */
+  text-align: center; /* Center align the content within profile-header */
+  padding-bottom: 120px; /* Adjust according to your content */
+}
+
+.sections-container {
+  display: flex; /* Changes from column to row format for side-scrolling */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  align-items: start; /* Aligns items to the start of the container */
+  justify-content: space-evenly; /* Centers the sections horizontally */
+  padding: 0px;
+  max-width: 100%; /* Ensures the container does not exceed the viewport width */
+  gap: 20px; /* Adds space between sections */
+  padding-bottom: 100px; /* Adds space at the bottom of the page */
+}
+
+.frame-container {
+  width: 90%; /* Full width of the section */
+  height: 350px; /* Adjust based on your exact needs */
+  position: relative; /* Important for positioning the absolute elements inside it */
+  overflow: hidden; /* Keeps everything contained within the bounds */
+}
+
+.frame-container img {
+  width: 100%;
+  height: 100%; /* Make sure the image covers the area properly */
+  object-fit: cover; /* Adjust this as needed to ensure the image fits well */
+  position: absolute;
+  z-index: 1;
+}
+
+.frame-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('img-src/frame.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
