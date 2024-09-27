@@ -66,3 +66,10 @@ Our organization uses the following GitHub flow for managing changes:
 We are excited to have you as part of our team and look forward to seeing your contributions. Remember, open communication and collaboration are key to our success. If you have any questions, don't hesitate to ask other team members for help.
 
 Let's build something great together!
+
+### 8. Team Members
+
+[Jaiden Leonard](https://nice-dune-025a8ce10.5.azurestaticapps.net/)
+[Irving Sanchez](https://www.cyberkineticengineering.com/)
+[Nicholas Krzysiak](https://lemon-river-0e0577810.5.azurestaticapps.net/)
+[Bryan Avalos](https://bryana55.github.io//me/)
