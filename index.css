@@ -19,6 +19,10 @@ body {
     justify-content: center;
     padding: 20px;
   }
+  .major-info {
+    font-size: 12px;
+    padding: 3px 0;
+  }
 }
 
 /*For screens smaller than 600px */
@@ -69,11 +73,12 @@ ul {
 }
 
 p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
 
 .section {
-  background-color: rgba(0, 0, 0, 0.5); ;
+  background-color: rgba(0, 0, 0, 0.795); ;
   padding: 20px;
   margin: 10px auto;
   border-radius: 20px;
@@ -96,6 +101,7 @@ p {
 }
 
 .section h2 + p a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #b5f4f8 !important;
   text-decoration: none;
   font-weight: bold;
@@ -113,7 +119,7 @@ p {
 }
 
 .hover-link { /* color of resume link */
-  color: #00d9e9;
+  color: #70ecf5;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -176,9 +182,42 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
   background-image: url('img-src/frame.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 2;
+}
+
+.major-info {
+  position: absolute;
+  bottom: 50px;  /* Adjust the distance from the bottom of the frame */
+  width: 100%;   /* Ensure it spans the full interior width of the frame */
+  text-align: center;  /* Center-align the text */
+  font-size: 14px; /* Adjust size as necessary */
+  color: rgb(0, 0, 0);    /* Adjust text color as desired */
+  font-family: 'Arial', sans-serif; /* Specify the font */
+  background-color: rgba(0, 0, 0, 0); /* Optional: Add a semi-transparent background */
+  padding: 5px 0; /* Vertical padding for better spacing */
+  z-index: 3;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration-skip-ink: auto;
+  font-weight: bold;
+}
+
+.major-info-minor {
+  position: absolute;
+  bottom: 30px;  /* Adjust the distance from the bottom of the frame */
+  width: 100%;   /* Ensure it spans the full interior width of the frame */
+  text-align: center;  /* Center-align the text */
+  font-size: 14px; /* Adjust size as necessary */
+  color: rgb(0, 0, 0);    /* Adjust text color as desired */
+  font-family: 'Arial', sans-serif; /* Specify the font */
+  background-color: rgba(0, 0, 0, 0); /* Optional: Add a semi-transparent background */
+  padding: 5px 0; /* Vertical padding for better spacing */
+  z-index: 3;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration-skip-ink: auto;
+  font-weight: bold;
 }
