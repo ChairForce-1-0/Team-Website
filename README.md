@@ -1,4 +1,4 @@
-# Welcome to Our GitHub Organization!
+# Welcome to Our GitHub Organization
 
 This README is designed to help you get acquainted with the basics of using our GitHub Organization for effective collaboration and project management. Whether you're contributing code, managing projects, or reviewing pull requests, this guide will provide you with the necessary information to get started.
 
@@ -16,7 +16,7 @@ If you haven't been added yet, please let the admin know your GitHub username so
 
 ### 2. Teams and Roles
 
-Our organization is structured into various teams, each with specific roles and responsibilities. 
+Our organization is structured into various teams, each with specific roles and responsibilities.
 
 - **Developers**: Responsible for writing and committing code.
 - **Reviewers**: In charge of code reviews and merging pull requests.
