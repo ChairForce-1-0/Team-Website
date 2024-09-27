@@ -9,7 +9,7 @@ Welcome to our GitHub Organization! This document provides essential guidance on
 3. **Use Git Command**: In your terminal or command prompt, type `git clone <URL>` replacing `<URL>` with the one you copied.
 4. **Enter the Repository Directory**: Change to the directory that was just created with `cd <repository-name>`.
 
-## How to Create and Switch to a New Branch
+## How to Create and Switch to a New Branch (Already did this for you guys)
 
 1. **Open Terminal**: Navigate to your project directory.
 2. **Create a New Branch**: Execute `git checkout -b <branch-name>`.

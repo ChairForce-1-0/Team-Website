@@ -53,3 +53,5 @@ This will ensure there are no conflicts in the work we've done and we are on the
 b.) If you have any questions please feel free to ask. Learning how to do this is super important in your career field so start getting comfortable with it.
 
 :sparkles: This will be added into our repository as well in case you need to reference this again.:sparkles:
+
+:sparkles: Never push to main branch :sparkles:
