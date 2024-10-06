@@ -1,6 +1,8 @@
 # Welcome to Our GitHub Organization
 
-[Team-Website](https://chairforce-1-0.github.io/Team-Website/)
+[Custom-Domain](https://team.cyberkineticengineering.com/)
+[GitHub-Website](https://chairforce-1-0.github.io/Team-Website/)
+[AzureStatic-Website](https://purple-glacier-0fb080110.5.azurestaticapps.net/)
 
 This README is designed to help you get acquainted with the basics of using our GitHub Organization for effective collaboration and project management. Whether you're contributing code, managing projects, or reviewing pull requests, this guide will provide you with the necessary information to get started.
 
