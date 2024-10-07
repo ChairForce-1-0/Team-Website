@@ -153,7 +153,7 @@ p {
   padding: px;
   max-width: 100%; /* Ensures the container does not exceed the viewport width */
   gap: 20px; /* Adds space between sections */
-  padding-bottom: 100px; /* Adds space at the bottom of the page */
+  padding-bottom: 20px; /* Adds space at the bottom of the page */
   
 }
 
@@ -228,9 +228,9 @@ p {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: rgba(102, 100, 100, 0.7);
-  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.795);
+  border-radius: 15px;
  
 }
 
@@ -238,7 +238,7 @@ p {
   background-color: rgba(54, 52, 52, 0.7);
   margin: 10px 0;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 4px 8px rgba(117, 54, 54, 0.1);
   transition: transform 0.2s ease;
   text-align: center;
@@ -258,7 +258,7 @@ p {
   font-size: 16px; 
   font-family: Arial, sans-serif;
   cursor: pointer; 
-  border-radius: 5px; 
+  border-radius: 15px; 
   transition: background-color 0.3s ease, color 0.3s ease;
   margin-right: 10px;
 }
@@ -270,11 +270,27 @@ p {
 }
 
 .assignment-header{
-  background-color: black;
+  background-color: rgba(54, 52, 52, 0.7);
   align-self: center;
   padding: 20px;
   border-radius: 15px;
   
  
   
+}
+
+.team-photo-container {
+  width: 100%;  /* Full width of its parent container */
+  max-width: 1000px;  /* Match the max-width of the assignment-portfolio-container */
+  margin: 0 auto;  /* Center the container */
+  padding: 20px;  /* Add padding for consistency with the assignment container’s layout */
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.795);
+  border-radius: 20px; /* Match the border radius for consistency */
+  text-align: center;  /* Center the content */
+}
+
+.parent-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
