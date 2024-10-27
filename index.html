@@ -5,118 +5,131 @@
 
     <meta charset="UTF-8"> <!-- This specifies the character encoding for the HTML document -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scrum Team</title>
-    <link rel="stylesheet" href="index.css"> <!-- This links the style.css file to this HTML file -->
+    <title>Chair Force One</title>
+    <link href="./styles.css" rel="stylesheet"> <!-- This links the style.css file to this HTML file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 </head>
 
-    <body>
+<body>
 
-        <div class="profile-header">
-            <div class="profile-picture">
-                <img src="img-src/ChairForceOne-Logo.png" alt="Chair-Force-Logo">
-            </div>
-            <div class="banner-text">
-                <h1>"Deploying Code at the Speed of Comfort!"</h1>
-                <h2>Check out our flight roster!</h2>
-            </div>
+    <div class="profile-header">
+        <div class="profile-picture">
+            <img src="img-src/ChairForceOne-Logo.png" alt="Chair-Force-Logo">
         </div>
-
-        <div class="sections-container">
-            
-            <!-- Jaiden's Profile Section -->
-            <div class="section">
-                <h2>Jaiden Leonard</h2>
-                <div class="frame-container">
-
-                    <img src="img-src/Jaiden-Render2.png" usemap="#imagemap-jaiden" alt="jaiden" height="355" width="270">
-                    <map name="imagemap-jaiden">
-                        <area shape="circle" coords="135,178,70" href="https://jtleon301.github.io/getting-to-know-each-other/" alt="jaiden">
-                    </map>
-                    
-                </div>
-                <p>Computer Science Major</p>
-            </div>
-
-            <!-- Irving's Profile Section -->
-            <div class="section">
-                <h2>Irving Sanchez</h2>
-                <div class="frame-container">
-
-                    <img src="img-src/Irving-Comp.png" usemap="#imagemap-irving" alt="jaiden" height="355" width="270">
-                    <map name="imagemap-irving">
-                        <area shape="circle" coords="135,178,70" href="http://cyberkineticengineering.com/" alt="irving">
-                    </map>
-
-                </div>
-                <p>Computer Engineering Major</p>
-            </div>
-
-            <!-- Nicholas's Profile Section -->
-            <div class="section">
-                <h2>Nicholas Krzysiak</h2>
-                <div class="frame-container">
-
-                    <img src="img-src/nick.png" usemap="#imagemap-nick" alt="nick" height="355" width="270">
-                    <map name="imagemap-nick">
-                        <area shape="circle" coords="135,178,70" href="https://krzysiaknick.github.io/Getting-to-know-me-2/" alt="nick">
-                    </map>
-                    
-                </div>
-                <p>Computer Science Major</p>
-                
-            </div>
-            
-            <!-- Bryan's Profile Section -->
-        
-            <div class="section">
-                <h2>Bryan Avalos</h2>
-                <div class="frame-container">
-
-                    <img src="img-src/Bryan-Render1.png" usemap="#imagemap-bryan" alt="nick" height="355" width="270">
-                    <map name="imagemap-bryan">
-                        <area shape="circle" coords="135,178,70" href="https://bryana55.github.io//me/" alt="Bryan">
-                    </map>
-                    
-                </div>
-                <p>Computer Science and Forensic Criminal Investigation</p>
-            </div>
-
-
-
-
+        <div class="banner-text">
+            <h1>"Deploying Code at the Speed of Comfort!"</h1>
+            <h2>Check out our flight roster!</h2>
         </div>
+    </div>
+
+    <p></p>
+    </div>
+    <div class="marquee-wrapper">
+        <div class="marquee">
+            <div class="marquee-item">
+                <article class="member">
+                    <a class="member-link" href="https://jtleon301.github.io/getting-to-know-each-other/">
+                        <figure class="member-img-wrapper">
+                            <img class="member-img" width="700" height="700" src="img-src/Jaiden-Render2.png"
+                                alt="Team Member #1" />
+                        </figure>
+                        <figcaption class="member-details">
+                            <h3 class="member-title">Jaiden Leonard</h3>
+                            <p class="member-subtitle">Computer Science Major</p>
+                        </figcaption>
+                    </a>
+                </article>
+            </div>
+            <div class="marquee-item">
+                <article class="member">
+                    <a class="member-link" href="https://www.cyberkineticengineering.com/">
+                        <figure class="member-img-wrapper">
+                            <img class="member-img" width="1000" height="667" src="img-src/Irving-Portrait-2.png"
+                                alt="Team Member #2" />
+                        </figure>
+                        <figcaption class="member-details">
+                            <h3 class="member-title">Irving Sanchez</h3>
+                            <p class="member-subtitle">Computer Science Major Minor Math</p>
+                        </figcaption>
+                    </a>
+                </article>
+            </div>
+            <div class="marquee-item">
+                <article class="member">
+                    <a class="member-link" href="https://krzysiaknick.github.io/Getting-to-know-me-2/">
+                        <figure class="member-img-wrapper">
+                            <img class="member-img" width="560" height="700" src="img-src/nick.png"
+                                alt="Team Member #3" />
+                        </figure>
+                        <figcaption class="member-details">
+                            <h3 class="member-title">Nicholas Krzysiak</h3>
+                            <p class="member-subtitle">Computer Science Major</p>
+                        </figcaption>
+                    </a>
+                </article>
+            </div>
+            <div class="marquee-item">
+                <article class="member">
+                    <a class="member-link" href="https://bryana55.github.io//me/">
+                        <figure class="member-img-wrapper">
+                            <img class="member-img" width="1000" height="667" src="img-src/Bryan-Render1.png"
+                                alt="Team Member #4" />
+                        </figure>
+                        <figcaption class="member-details">
+                            <h3 class="member-title">Bryan Avalos</h3>
+                            <p class="member-subtitle">Computer Science Major Minor Forensics</p>
+                        </figcaption>
+                    </a>
+                </article>
+            </div>
+
+            <button type="button" class="marquee-arrow arrow-prev" aria-label="Go to the previous team member">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd"
+                    clip-rule="evenodd">
+                    <path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z" />
+                </svg>
+
+            </button>
+            <button type="button" class="marquee-arrow arrow-next" aria-label="Go to the next team member">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd"
+                    clip-rule="evenodd">
+                    <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                </svg>
+            </button>
+        </div>
+    </div>
 
 
-        <div class="parent-container"> <!-- This div should be styled to accommodate the full width needed -->
-        
-            <div class="assignment-portfolio-container">
-        
-                <h1 class="assignment-header"> Team Assignment portfolio</h1>
-        
-                <div class="assignment">
-                    <h2>Assignment One:</h2>
-                    <h2>Getting To Know Each Other Teams</h2>
-                    <p>As a team create an HTML page dedicated to your scrum team</p>
-                    <br>
-                    <a href="https://chairforce-1-0.github.io/Team-Website/" class="assignment-links">Team Website</a>
-        
-                    <a href="https://github.com/ChairForce-1-0/Team-Website/tree/main" class="assignment-links">Repo</a>
-                </div>
+    <div class="parent-container"> <!-- This div should be styled to accommodate the full width needed -->
+
+        <div class="assignment-portfolio-container">
+
+            <h1 class="assignment-header"> Team Assignment portfolio</h1>
+
+            <div class="assignment">
+                <h2>Assignment One:</h2>
+                <h2>Getting To Know Each Other Teams</h2>
+                <p>As a team create an HTML page dedicated to your scrum team</p>
                 <br>
-        
+                <a href="https://chairforce-1-0.github.io/Team-Website/" class="assignment-links">Team Website</a>
+
+                <a href="https://github.com/ChairForce-1-0/Team-Website/tree/main" class="assignment-links">Repo</a>
             </div>
+            <br>
 
         </div>
 
-        
-        <div class="team-photo-container">
-            <img src="img-src/team-pic.jpg" alt="Team Photo" style="width:100%; border-radius: 15px;">
-        </div>
+    </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="link-preview.js"></script>
 
-    </body>
+    <div class="team-photo-container">
+        <img src="img-src/team-pic.jpg" alt="Team Photo" style="width:100%; border-radius: 15px;">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
 
 </html>
