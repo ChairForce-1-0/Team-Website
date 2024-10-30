@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Century Gothic", 'Lato', sans-serif;
   color: #ffffff;
   margin: 0;
   padding-top: 10px;
   line-height: 1.0;
+  --def: #22ade4; 	
+	--inv: #fff;
   background-image: url('Backgrounds/Website-Background-13.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -296,8 +299,6 @@ p {
 }
 
 /*Team Scroller Assets*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-
 * {
   box-sizing: border-box;
 }
@@ -446,10 +447,237 @@ a {
   z-index: 1;
   font-size: 14px;
   color: black;
-  background: white;
+  background: rgb(255, 255, 255);
 }
 
 .page-footer a {
   display: flex;
   margin-left: 4px;
 }
+/*Sticky Navigation Bar*/
+.et-hero-tabs,
+.et-slide {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	position: relative;
+	background: #0000009c;
+	text-align: center;
+	padding: 0 2em;
+}
+
+.et-hero-tabs h1,
+  .et-slide h1 {
+	font-size: 2rem;
+	margin: 0;
+	letter-spacing: 1rem;
+}
+
+.et-hero-tabs h3,
+  .et-slide h3 {
+	font-size: 1rem;
+	letter-spacing: 0.3rem;
+	opacity: 0.6;
+}
+
+.et-hero-tabs-container {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	background: #131313;
+	z-index: 10;
+}
+
+.et-hero-tabs-container--top {
+	position: fixed;
+	top: 0;
+}
+
+.et-hero-tab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	color: #ffffff;
+	letter-spacing: 0.1rem;
+	transition: all 0.5s ease;
+	font-size: 0.8rem;
+}
+
+.et-hero-tab:hover {
+	color: white;
+	background: rgba(102, 177, 241, 0.8);
+	transition: all 0.5s ease;
+}
+
+.et-hero-tab-slider {
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	height: 6px;
+	background: #66B1F1;
+	transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+	.et-hero-tabs h1,
+  .et-slide h1 {
+		font-size: 3rem;
+	}
+
+	.et-hero-tabs h3,
+  .et-slide h3 {
+		font-size: 1rem;
+	}
+
+	.et-hero-tab {
+		font-size: 1rem;
+	}
+}
+/*Buttons*/
+
+/* ~~~~~~~ INIT. BTN ~~~~~~~ */
+.btn {
+	position: relative;
+	padding: 1.4rem 4.2rem;
+	padding-right: 3.1rem;
+	font-size: 1.4rem;
+	color: var(--inv);
+	letter-spacing: 1.1rem;
+	text-transform: uppercase;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+	cursor: pointer;
+	user-select: none;
+  z-index: 1;
+}
+
+.btn:before, .btn:after {
+	content: '';
+	position: absolute;
+	transition: inherit;
+	z-index: -1;
+}
+
+.btn:hover {
+	color: var(--def);
+	transition-delay: .5s;
+}
+
+.btn:hover:before {
+	transition-delay: 0s;
+}
+
+.btn:hover:after {
+	background: var(--inv);
+	transition-delay: .35s;
+}
+
+/* From Left */
+.from-left:before,
+.from-left:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+.from-left:before {
+	right: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;
+}
+
+.from-left:after {
+	left: 0;
+}
+
+.from-left:hover:before,
+.from-left:hover:after {
+	width: 100%;
+}
+
+/* From Right */
+.from-right:before,
+.from-right:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+.from-right:before {
+	left: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;
+}
+
+.from-right:after {
+	right: 0;
+}
+
+.from-right:hover:before,
+.from-right:hover:after {
+	width: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+/*title page glitch*/
+/* comment out if you want the cursor blink effect
+.cursor:after {
+	position: absolute;
+	content: " ";
+	height: 30px;
+	width: 5px;
+	background-color: black;
+	
+	animation: blink 0.7s ease-in-out infinite; 
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+*/
+
+/*The Ultimate Project Effect*/
+o {
+  position: relative;
+  font-family: "Century Gothic", 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
